@@ -1,0 +1,29 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kostiadid"
+  },
+  "author": "Kostia Borysenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostiadid"
+  },
+  "homepage": "https://github.com/kostiadid",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^8.9.6",
+    "morgan": "^1.10.0"
+  }
+}
